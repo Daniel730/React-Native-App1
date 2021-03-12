@@ -1,5 +1,12 @@
 var React = require('react');
+
 var {Text, View, Button, AppRegistry } = require("react-native");
+
+const geraNumeroAleatorio = () => {
+    var numero_aleatorio = Math.random();
+    numero_aleatorio = Math.floor(numero_aleatorio * 10);
+    alert(numero_aleatorio);
+}
 
 const geraNumeroAleatorio = () => {
     var numero_aleatorio = Math.random();
